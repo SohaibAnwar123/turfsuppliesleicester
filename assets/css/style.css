@@ -756,15 +756,17 @@ gap: 20px;
   line-height: 1;
 }
 .heroWrap .customBtn {
-  background-color: #000;
-  border-color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
   width: 248px;
   height: 48px;
   margin-left: auto;margin-right: auto;
+  border-radius: 25px;
 }
 .heroWrap .customBtn:hover {
   background-color: unset;
-  color: #000;
+  color: #fff;
 }
 
 .domesTurf .container {
