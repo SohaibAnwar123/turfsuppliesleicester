@@ -419,13 +419,13 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #338A46;
+  color: #ffffffba;
 }
 .navWrap .navbar-brand h2 {
   font-size: 50px;
   line-height: 0.8;
   font-weight: 500;
-  color: #000;
+  color: #fff;
   letter-spacing: -4px;
 }
 .navWrap .navbar-collapse {
@@ -1086,4 +1086,24 @@ span.tick {
     display: flex;
     flex-direction: column;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+
+.GrowSupply .container{
+  background-color: #F4F8F3;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+.GrowSupply .container h2{
+font-size: 22px;
+color: #047A40;
+}
+.GrowSupply .container p{
+line-height: 1.5;
+}
+.GrowSupply .container p a{
+text-decoration: underline;
+}
